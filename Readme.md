@@ -4,7 +4,9 @@
 
 原编程艺术系列从2011年4月至今，写了42个编程问题，在创作的过程当中，得到了很多朋友的支持，特别是博客上随时都会有朋友不断留言，或提出改进建议，或show出自己的思路、代码，或指正bug。
 
-为了方便大家更好的改进、优化、增补编程艺术系列，特把博客上的这个程序员编程艺术系列和博客内其它部分经典文章同步到此，邀请各位一起修正和优化：若发现任何问题、错误、bug，或可以优化的每一段代码，欢迎随时pull request或发issue反馈，thanks。
+为了方便大家更好的改进、优化、增补编程艺术系列，特把博客上的这个**程序员编程艺术系列和博客内其它部分经典文章**同步到此，成立本项目「Csdn 600万博客结构之法算法之道部分经典博文优化版：《程序员编程艺术 — 面试和算法心得》」，邀请各位一起修正和优化。
+
+若发现任何问题、错误、bug，或可以优化的每一段代码，欢迎随时pull request或发issue反馈，thanks。
 
 ## Start Reading
  * [中文目录](ebook/zh/Readme.md) Enhancement in progress
@@ -12,7 +14,7 @@
 
 
 ## How To Contribute
- * 添补剩下的章节，参考本书[中文目录](ebook/zh/Readme.md)未完成的章节。「必选，没有文章有待同步：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/182 」
+ * 邀请大家帮忙把github上的文章导出到word上，欢迎到这里认领：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/337 」
  * 一章一章的测试所有代码，指正 bug，修正错误。 「必选，可到这里认领：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/210 」
  * 优化原文章上的C/C++ 代码，优化后的代码可以放到[ebook/code](ebook/code/)文件夹内，并注意代码命名规范的问题：https://github.com/julycoding/The-Art-Of-Programming-By-July/issues/234 。 「必选」
  * 添加其它语言如Java、python、go 的代码，放在[ebook/code](ebook/code/)文件夹内，同样如上，注意代码命名规范的问题。 「可选」
@@ -62,22 +64,20 @@
  - 2014年3月，通读全部文章，修正明显错误；
  - 2014年4月，精简篇幅，调整目录，Contributors 贡献其它语言代码，并翻译部分文章；
  - 2014年5月，逐章逐节逐行逐字优化文字描述，测试重写优化每一段每一行每一个代码，确定代码基本风格；
- - 2014年6月
-- 第一周，压缩篇幅，宁愿量少，但求质精；
-- 第二周，review 全部文章，重点review 第三、五、六、七章，和更多题型；
-- 第三周，将逐步转移到线下word 上继续修改优化，在word 上做出最后彻底的改进，与出版社编辑沟通重绘所有图片；
-- 第四周，最后review；
-- 6月30日，截稿，交给出版社。
- - 2014年7月..
- - 2014年8月..
- - 2014年9月..
- - 2014年10月...
+ - 2014年6月，第一周，压缩篇幅，宁愿量少，但求质精；第二周，全面 review；第三周，全部文章从github转到word上，在word 上做出最后彻底的改进，若未发现紧要bug或pull request，github将暂不再改动；第四周，最后一周review；
+- 实际情况：6月30日，稿件延期，理由：目前版本不是所能做到的最好的版本。
+ - 2014年7月，出版社重绘全部图片，编辑加工，复审，三审；
+- 实际情况：7月1日交付初稿，上半个月再交一版本，择期交定稿 
+ - 2014年8月，发稿审批，排版校对；
+ - 2014年9月，出胶片，印刷，装订成书；
+ - 2014年10月，第一版上市。
+ - 2014年11月..
 
 
 ## Contributors
-为示鼓励，本系列集结出版成书后，愿赠送所有contributors 一人一本新书签名版，以此感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
+感谢所有贡献的朋友：https://github.com/julycoding/The-Art-Of-Programming-by-July/graphs/contributors ，并非常期待你的加入，thanks。
 
-同时，欢迎所有已经贡献过本github的85位朋友加入程序员编程艺术室QQ群：149638123，验证信息为你贡献本项目时用的github昵称。
+同时，欢迎所有已经贡献过本github的87位朋友加入程序员编程艺术室QQ群：149638123，验证信息为你贡献本项目时用的github昵称。
 
 孤军奋战的时代早已远去，我们只有团结起来，才能帮助到更多更无数的人。[@研究者July](http://weibo.com/julyweibo)，始于二零一三年十二月十四日。
 
@@ -85,10 +85,10 @@
 本电子书的版权属于July 本人，严禁其他任何人出版，严禁用于任何商业用途，违者必究法律责任。July、二零一四年五月十一日晚。
 
 ## July' PDF
-* 支持向量机通俗导论（理解SVM的三层境界）Latex排版精细版：http://vdisk.weibo.com/s/zrFL6OXKgnlcp ；Latex版本②：https://raw.githubusercontent.com/liuzheng712/Intro2SVM/master/Intro2SVM.pdf 。
-* 程序员编程艺术第一~三十七章PDF：http://download.csdn.net/detail/v_july_v/6694053 ，本github上的文章已经对此PDF进行了极大的优化和改进。
-* 微软面试100题系列之PDF：http://download.csdn.net/detail/v_july_v/4583815
-* 十五个经典算法研究与总结之PDF：http://download.csdn.net/detail/v_july_v/4478027
+* 《支持向量机通俗导论（理解SVM的三层境界）》Latex排版精细版：http://vdisk.weibo.com/s/zrFL6OXKgnlcp ；Latex版本②：https://raw.githubusercontent.com/liuzheng712/Intro2SVM/master/Intro2SVM.pdf 。
+* 原《程序员编程艺术第一~三十七章PDF》：http://download.csdn.net/detail/v_july_v/6694053 ，本github上的文章已经对此PDF进行了极大的优化和改进。
+* 《微软面试100题系列之PDF》：http://download.csdn.net/detail/v_july_v/4583815
+* 《十五个经典算法研究与总结之PDF》：http://download.csdn.net/detail/v_july_v/4478027
 * 编程艺术HTML网页版：http://taop.marchtea.com/
-* 2014年4月29日武汉华科大第5次面试&算法讲座PPT：http://pan.baidu.com/s/1hqh1E9e ；
+* 2014年4月29日《武汉华科大第5次面试&算法讲座PPT》：http://pan.baidu.com/s/1hqh1E9e ；
 * 持续更新..
