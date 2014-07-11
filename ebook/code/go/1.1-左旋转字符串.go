@@ -1,7 +1,6 @@
-//1.1 左旋转字符串
+//1.1 旋转字符串
 //@author leiyonglin <leiyonglin@gmail.com>
-//http://play.golang.org/p/SxiFC1eRsE
-
+//http://play.golang.org/p/RFRscmzuMr
 package main
 
 import (
@@ -10,7 +9,7 @@ import (
 
 //解法一: 暴力移位法
 //左移一位
-func left_shift_one(s []byte, n int) {
+func leftShiftOne(s []byte, n int) {
 	if n == 0 {
 		return
 	}
@@ -23,11 +22,11 @@ func left_shift_one(s []byte, n int) {
 }
 
 //左移m位
-func left_shift_m(s []byte, n int, m int) {
+func leftRotateString(s []byte, n int, m int) {
 	m %= n
 
 	for m > 0 {
-		left_shift_one(s, n)
+		leftShiftOne(s, n)
 		m--
 	}
 }
@@ -55,7 +54,7 @@ func main() {
 	n := len(s)
 	m := 8
 
-	left_shift_m(s, n, m)
+	leftRotateString(s, n, m)
 	fmt.Println(string(s))
 
 	leftshift(s, n, m)
