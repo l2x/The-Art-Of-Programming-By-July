@@ -4,7 +4,7 @@ package main
 
 import "fmt"
 
-// 单向链表
+// 链表
 type List struct {
 	first *element
 	last  *element
